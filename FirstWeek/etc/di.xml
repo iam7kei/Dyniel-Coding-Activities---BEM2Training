@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Copyright © Dyniel, Inc. All rights reserved.
+ */
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
+    <preference for="Dyniel\FirstWeek\Model\FirstWeekInterface" type="Dyniel\FirstWeek\Model\FirstWeek" />\
+    <preference for="Magento\Framework\View\Element\Block\ArgumentInterface" type="Magento\Catalog\Helper\Image" />\
+</config>
